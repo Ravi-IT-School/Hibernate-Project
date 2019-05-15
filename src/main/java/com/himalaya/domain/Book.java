@@ -35,6 +35,9 @@ public class Book {
 	public void setBookPrice(Double bookPrice) {
 		this.bookPrice = bookPrice;
 	}
+	public void m1(){
+	System.out.println("insert m1 method");
+	}
 
 	@Override
 	public String toString() {
